@@ -1,0 +1,17 @@
+.welcome{
+    
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.welcome video {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .welcome video {
+        max-width: 100%; /* Ensure the video doesn't exceed the screen width */
+        height: auto;
+    }
+}
